@@ -10,3 +10,14 @@
 .founder-grid img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:cover}
 .founder-grid figcaption{font-size:11px;padding:15px 0;border-bottom:1px solid #bdc4b2;letter-spacing:.3px}
 @media(max-width:680px){.founder-grid{grid-template-columns:1fr;gap:28px}.disclaimer,.recipe-note{padding:18px}}
+
+/* Note integrate nel testo, senza riquadri o cornici. */
+.notice{background:transparent;color:#64705f}
+.disclaimer,.recipe-note{background:transparent;color:#74796e;padding:0;border:0;font-size:12px;line-height:1.7}
+.manifesto-note{border:0;color:#ced6c6;padding-top:18px}
+.fish-gallery{padding-top:0;padding-bottom:70px}
+.fish-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.fish-grid figure{margin:0}
+.fish-grid img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.fish-grid figcaption,.photo-credit{font-size:11px;color:var(--muted);margin-top:12px}
+@media(max-width:680px){.fish-grid{grid-template-columns:1fr}.disclaimer,.recipe-note{padding:0}}
